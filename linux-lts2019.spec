@@ -6,7 +6,7 @@
 
 Name:           linux-lts2019
 Version:        5.4.19
-Release:        3
+Release:        4
 License:        GPL-2.0
 Summary:        The Linux kernel
 Url:            http://www.kernel.org/
@@ -73,7 +73,7 @@ Patch0126: 0126-print-CPU-that-faults.patch
 Patch0127: 0127-x86-microcode-Force-update-a-uCode-even-if-the-rev-i.patch
 Patch0128: 0128-x86-microcode-echo-2-reload-to-force-load-ucode.patch
 Patch0129: 0129-fix-bug-in-ucode-force-reload-revision-check.patch
-Patch0131: 0130-nvme-workaround.patch
+Patch0130: 0130-nvme-workaround.patch
 #Serie.end
 
 #Serie1.name WireGuard
