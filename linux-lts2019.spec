@@ -37,11 +37,10 @@ Patch002: CVE-2019-19054.patch
 #cve.end
 
 #mainline: Mainline patches, upstream backport and fixes from 0051 to 0099
-Patch0051: 0051-rcu-nocb-Fix-dump_tree-hierarchy-print-always-active.patch
-Patch0052: 0052-drm-i915-save-AUD_FREQ_CNTRL-state-at-audio-domain-s.patch
-Patch0053: 0053-drm-i915-Fix-audio-power-up-sequence-for-gen10-displ.patch
-Patch0054: 0054-drm-i915-extend-audio-CDCLK-2-BCLK-constraint-to-mor.patch
-Patch0055: 0055-iwlwifi-mvm-Do-not-require-PHY_SKU-NVM-section-for-3.patch
+Patch0051: 0051-drm-i915-save-AUD_FREQ_CNTRL-state-at-audio-domain-s.patch
+Patch0052: 0052-drm-i915-Fix-audio-power-up-sequence-for-gen10-displ.patch
+Patch0053: 0053-drm-i915-extend-audio-CDCLK-2-BCLK-constraint-to-mor.patch
+Patch0054: 0054-iwlwifi-mvm-Do-not-require-PHY_SKU-NVM-section-for-3.patch
 #mainline.end
 
 #Serie.clr 01XX: Clear Linux patches
@@ -136,7 +135,6 @@ Linux kernel build files
 %patch0052 -p1
 %patch0053 -p1
 %patch0054 -p1
-%patch0055 -p1
 #mainline.patch.end
 
 #Serie.patch.start Clear Linux patches
