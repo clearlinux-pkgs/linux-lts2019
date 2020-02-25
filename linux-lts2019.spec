@@ -6,7 +6,7 @@
 
 Name:           linux-lts2019
 Version:        5.4.22
-Release:        10
+Release:        11
 License:        GPL-2.0
 Summary:        The Linux kernel
 Url:            http://www.kernel.org/
@@ -29,7 +29,7 @@ Requires: linux-lts2019-license = %{version}-%{release}
 %define debug_package %{nil}
 %define __strip /bin/true
 
-# kconfig: linux-5.5.5-911
+# kconfig: linux-5.5.6-915
 
 #cve.start cve patches from 0001 to 050
 Patch001: CVE-2019-12379.patch
