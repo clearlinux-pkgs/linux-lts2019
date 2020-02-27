@@ -6,7 +6,7 @@
 
 Name:           linux-lts2019
 Version:        5.4.22
-Release:        11
+Release:        12
 License:        GPL-2.0
 Summary:        The Linux kernel
 Url:            http://www.kernel.org/
