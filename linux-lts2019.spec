@@ -6,7 +6,7 @@
 
 Name:           linux-lts2019
 Version:        5.4.28
-Release:        19
+Release:        20
 License:        GPL-2.0
 Summary:        The Linux kernel
 Url:            http://www.kernel.org/
@@ -175,9 +175,14 @@ Linux kernel build files
 %patch0131 -p1
 #Serie.patch.end
 
-#Serie1.patch.start
+#Serie100.patch.start
 %patch1001 -p1
-#Serie1.patch.end
+#Serie100.patch.end
+
+#Serie101.patch.start
+%patch1011 -p1
+%patch1012 -p1
+#Serie101.patch.end
 
 cp %{SOURCE1} .
 
