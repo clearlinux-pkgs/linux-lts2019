@@ -15,7 +15,7 @@ Subject: [PATCH] virtualbox: setup Kconfig and Makefiles
  8 files changed, 78 insertions(+), 29 deletions(-)
 
 diff --git a/drivers/misc/Kconfig b/drivers/misc/Kconfig
-index c55b637..2f69915 100644
+index c55b63750757..2f69915a0026 100644
 --- a/drivers/misc/Kconfig
 +++ b/drivers/misc/Kconfig
 @@ -466,6 +466,37 @@ config PVPANIC
@@ -57,7 +57,7 @@ index c55b637..2f69915 100644
  source "drivers/misc/eeprom/Kconfig"
  source "drivers/misc/cb710/Kconfig"
 diff --git a/drivers/misc/Makefile b/drivers/misc/Makefile
-index c1860d3..e7220f5 100644
+index c1860d35dc7e..e7220f510ccf 100644
 --- a/drivers/misc/Makefile
 +++ b/drivers/misc/Makefile
 @@ -51,6 +51,9 @@ obj-$(CONFIG_GENWQE)		+= genwqe/
@@ -71,7 +71,7 @@ index c1860d3..e7220f5 100644
  obj-$(CONFIG_OCXL)		+= ocxl/
  obj-y				+= cardreader/
 diff --git a/drivers/misc/vboxguest/Makefile b/drivers/misc/vboxguest/Makefile
-index 31afafe..e2ec705 100644
+index d4623dad96f2..cd5a2c2cdb5a 100644
 --- a/drivers/misc/vboxguest/Makefile
 +++ b/drivers/misc/vboxguest/Makefile
 @@ -27,6 +27,11 @@
@@ -87,7 +87,7 @@ index 31afafe..e2ec705 100644
  
  #VBOX_WITHOUT_COMBINED_SOURCES=1
 diff --git a/drivers/misc/vboxguest/Makefile-header.gmk b/drivers/misc/vboxguest/Makefile-header.gmk
-index 8be5f22..6df8ab0 100644
+index 8be5f224e52e..6df8ab02d071 100644
 --- a/drivers/misc/vboxguest/Makefile-header.gmk
 +++ b/drivers/misc/vboxguest/Makefile-header.gmk
 @@ -87,7 +87,7 @@ ifeq ($(USERNAME),)
@@ -148,7 +148,7 @@ index 8be5f22..6df8ab0 100644
  # Kernel build folder
  ifneq ($(shell if test -d $(KERN_DIR); then echo yes; fi),yes)
 diff --git a/drivers/misc/vboxsf/Makefile b/drivers/misc/vboxsf/Makefile
-index e9facbb..9b80654 100644
+index 031cb44bfcb6..f39b08d0e9cc 100644
 --- a/drivers/misc/vboxsf/Makefile
 +++ b/drivers/misc/vboxsf/Makefile
 @@ -20,6 +20,11 @@
@@ -188,7 +188,7 @@ index e9facbb..9b80654 100644
   endif
  endif
 diff --git a/drivers/misc/vboxsf/Makefile-header.gmk b/drivers/misc/vboxsf/Makefile-header.gmk
-index 8be5f22..6df8ab0 100644
+index 8be5f224e52e..6df8ab02d071 100644
 --- a/drivers/misc/vboxsf/Makefile-header.gmk
 +++ b/drivers/misc/vboxsf/Makefile-header.gmk
 @@ -87,7 +87,7 @@ ifeq ($(USERNAME),)
@@ -249,7 +249,7 @@ index 8be5f22..6df8ab0 100644
  # Kernel build folder
  ifneq ($(shell if test -d $(KERN_DIR); then echo yes; fi),yes)
 diff --git a/drivers/misc/vboxvideo/Makefile b/drivers/misc/vboxvideo/Makefile
-index 9c51d4d..54e1fd5 100755
+index c8e16bbe31e2..e26cc295a515 100755
 --- a/drivers/misc/vboxvideo/Makefile
 +++ b/drivers/misc/vboxvideo/Makefile
 @@ -20,6 +20,11 @@
@@ -265,7 +265,7 @@ index 9c51d4d..54e1fd5 100755
  
  # We want to build on Linux 3.11 and later and on all EL 7 kernels.
 diff --git a/drivers/misc/vboxvideo/Makefile-header.gmk b/drivers/misc/vboxvideo/Makefile-header.gmk
-index 8be5f22..6df8ab0 100755
+index 8be5f224e52e..6df8ab02d071 100755
 --- a/drivers/misc/vboxvideo/Makefile-header.gmk
 +++ b/drivers/misc/vboxvideo/Makefile-header.gmk
 @@ -87,7 +87,7 @@ ifeq ($(USERNAME),)
