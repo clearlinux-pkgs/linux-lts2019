@@ -76,12 +76,18 @@ Patch0130: 0130-nvme-workaround.patch
 Patch0131: 0131-Don-t-report-an-error-if-PowerClamp-run-on-other-CPU.patch
 #Serie.end
 
-#Serie1.name WireGuard
-#Serie1.git  https://git.zx2c4.com/WireGuard
-#Serie1.cmt  edad0d6e99e5133b1e8e865d727a25fff6399cb4
-#Serie1.tag  0.0.20191219
+#Serie100.name WireGuard
+#Serie100.git  https://git.zx2c4.com/WireGuard
+#Serie100.cmt  edad0d6e99e5133b1e8e865d727a25fff6399cb4
+#Serie100.tag  0.0.20191219
 Patch1001: 1001-WireGuard-fast-modern-secure-kernel-VPN-tunnel.patch
-#Serie1.end
+#Serie100.end
+
+#Serie101.name VirtualBox
+#Serie101.ver  6.1.4
+Patch1011: 1011-virtualbox-add-module-sources.patch
+Patch1012: 1012-virtualbox-setup-Kconfig-and-Makefiles.patch
+#Serie101.end
 
 %description
 The Linux kernel.
