@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.4.30 Kernel Configuration
+# Linux/x86 5.4.31 Kernel Configuration
 #
 
 #
@@ -8673,5 +8673,5 @@ CONFIG_UNWINDER_FRAME_POINTER=y
 
 
 # kernel-config sources:
-# FILEVER=/usr/share/kernel-config/base-5.4-4-41
-# FILEVER=/usr/share/kernel-config/mandatory-5.4-4-41
+# FILEVER=/usr/share/kernel-config/base-5.4-4-42
+# FILEVER=/usr/share/kernel-config/mandatory-5.4-4-42
