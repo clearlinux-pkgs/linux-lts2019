@@ -19,7 +19,7 @@ Signed-off-by: David S. Miller <davem@davemloft.net>
  1 file changed, 1 deletion(-)
 
 diff --git a/net/bpfilter/main.c b/net/bpfilter/main.c
-index efea4874743e9..05e1cfc1e5cd1 100644
+index efea487..05e1cfc 100644
 --- a/net/bpfilter/main.c
 +++ b/net/bpfilter/main.c
 @@ -35,7 +35,6 @@ static void loop(void)
