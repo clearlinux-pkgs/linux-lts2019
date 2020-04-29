@@ -26,10 +26,10 @@ index cbd3cf5..4caf4a8 100644
  
  static struct cpumask watchdog_allowed_mask __read_mostly;
 diff --git a/mm/ksm.c b/mm/ksm.c
-index 7905934..9ea8483 100644
+index e486c54..8926952 100644
 --- a/mm/ksm.c
 +++ b/mm/ksm.c
-@@ -2414,9 +2414,14 @@ static int ksm_scan_thread(void *nothing)
+@@ -2422,9 +2422,14 @@ static int ksm_scan_thread(void *nothing)
  
  		if (ksmd_should_run()) {
  			sleep_ms = READ_ONCE(ksm_thread_sleep_millisecs);
