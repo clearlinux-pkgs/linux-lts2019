@@ -32,7 +32,6 @@ Requires: linux-lts2019-license = %{version}-%{release}
 # kconfig: linux-5.5.6-915
 
 #cve.start cve patches from 0001 to 050
-Patch001: CVE-2019-19054.patch
 #cve.end
 
 #mainline: Mainline patches, upstream backport and fixes from 0051 to 0099
@@ -130,7 +129,6 @@ Linux kernel build files
 %setup -q -n linux-5.4.55
 
 #cve.patch.start cve patches
-%patch0001 -p1
 #cve.patch.end
 
 #mainline.patch.start Mainline patches, upstream backport and fixes
