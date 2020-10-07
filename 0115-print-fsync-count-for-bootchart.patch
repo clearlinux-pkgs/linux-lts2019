@@ -10,7 +10,7 @@ Subject: [PATCH] print fsync count for bootchart
  3 files changed, 5 insertions(+)
 
 diff --git a/block/blk-core.c b/block/blk-core.c
-index ca6b677..7592963 100644
+index 81aafb6..5daf9ab 100644
 --- a/block/blk-core.c
 +++ b/block/blk-core.c
 @@ -1169,6 +1169,9 @@ blk_qc_t submit_bio(struct bio *bio)
