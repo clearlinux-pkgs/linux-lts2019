@@ -52,7 +52,7 @@ index d44fe3e5c028..2b0e98ec22bc 100644
  
  	if (ret >= 0)
 diff --git a/arch/x86/kernel/cpu/microcode/intel.c b/arch/x86/kernel/cpu/microcode/intel.c
-index 9e85d785b226..5c67ac023f4a 100644
+index f522d3e159a6..59431fcc05bd 100644
 --- a/arch/x86/kernel/cpu/microcode/intel.c
 +++ b/arch/x86/kernel/cpu/microcode/intel.c
 @@ -39,7 +39,7 @@
