@@ -1,10 +1,10 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.4.83 Kernel Configuration
+# Linux/x86 5.4.84 Kernel Configuration
 #
 
 #
-# Compiler: gcc (Clear Linux OS for Intel Architecture) 10.2.1 20201210 releases/gcc-10.2.0-621-g027d3288de
+# Compiler: gcc (Clear Linux OS for Intel Architecture) 10.2.1 20201212 releases/gcc-10.2.0-633-g1c92fb9ec1
 #
 CONFIG_CC_IS_GCC=y
 CONFIG_GCC_VERSION=100201
@@ -969,7 +969,6 @@ CONFIG_ZPOOL=y
 CONFIG_ZBUD=y
 CONFIG_Z3FOLD=y
 CONFIG_ZSMALLOC=m
-# CONFIG_PGTABLE_MAPPING is not set
 # CONFIG_ZSMALLOC_STAT is not set
 CONFIG_GENERIC_EARLY_IOREMAP=y
 # CONFIG_DEFERRED_STRUCT_PAGE_INIT is not set
