@@ -1,10 +1,10 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.4.131 Kernel Configuration
+# Linux/x86 5.4.132 Kernel Configuration
 #
 
 #
-# Compiler: gcc (Clear Linux OS for Intel Architecture) 11.1.1 20210630 releases/gcc-11.1.0-371-g7f954b851a
+# Compiler: gcc (Clear Linux OS for Intel Architecture) 11.1.1 20210713 releases/gcc-11.1.0-440-g6356607530
 #
 CONFIG_CC_IS_GCC=y
 CONFIG_GCC_VERSION=110101
