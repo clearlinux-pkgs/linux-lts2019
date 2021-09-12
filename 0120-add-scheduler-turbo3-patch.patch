@@ -41,7 +41,7 @@ index 1cb3ca9bba49..eeb201bb014b 100644
  	}
  }
 diff --git a/kernel/sched/fair.c b/kernel/sched/fair.c
-index 74cb20f32f72..de72801255fc 100644
+index 87d9fad9d01d..03a569f889d1 100644
 --- a/kernel/sched/fair.c
 +++ b/kernel/sched/fair.c
 @@ -6506,6 +6506,10 @@ static int find_energy_efficient_cpu(struct task_struct *p, int prev_cpu)
