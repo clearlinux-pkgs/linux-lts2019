@@ -14,7 +14,7 @@ Signed-off-by: Miguel Bernal Marin <miguel.bernal.marin@linux.intel.com>
  1 file changed, 21 insertions(+)
 
 diff --git a/kernel/module.c b/kernel/module.c
-index 59d487b8d8da..4b8a1c7b5750 100644
+index 7c724356aca3..73823064e6da 100644
 --- a/kernel/module.c
 +++ b/kernel/module.c
 @@ -53,6 +53,7 @@
@@ -45,7 +45,7 @@ index 59d487b8d8da..4b8a1c7b5750 100644
  #ifndef CONFIG_MODVERSIONS
  #define symversion(base, idx) NULL
  #else
-@@ -4578,6 +4585,20 @@ static const struct file_operations proc_modules_operations = {
+@@ -4563,6 +4570,20 @@ static const struct file_operations proc_modules_operations = {
  static int __init proc_modules_init(void)
  {
  	proc_create("modules", 0, NULL, &proc_modules_operations);
