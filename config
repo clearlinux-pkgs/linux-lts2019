@@ -1,13 +1,13 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 5.4.188 Kernel Configuration
+# Linux/x86 5.4.190 Kernel Configuration
 #
 
 #
-# Compiler: gcc (Clear Linux OS for Intel Architecture) 11.2.1 20220322 releases/gcc-11.2.0-884-gf45603f39b
+# Compiler: gcc (Clear Linux OS for Intel Architecture) 12.0.1 20220420 (experimental) releases/gcc-11.2.0-1089-g691af15031
 #
 CONFIG_CC_IS_GCC=y
-CONFIG_GCC_VERSION=110201
+CONFIG_GCC_VERSION=120001
 CONFIG_CLANG_VERSION=0
 CONFIG_CC_CAN_LINK=y
 CONFIG_CC_HAS_ASM_GOTO=y
@@ -8021,7 +8021,9 @@ CONFIG_LSM="yama,loadpin,safesetid,integrity"
 #
 # Memory initialization
 #
+CONFIG_CC_HAS_AUTO_VAR_INIT=y
 CONFIG_INIT_STACK_NONE=y
+# CONFIG_INIT_STACK_ALL is not set
 CONFIG_INIT_ON_ALLOC_DEFAULT_ON=y
 # CONFIG_INIT_ON_FREE_DEFAULT_ON is not set
 # end of Memory initialization
