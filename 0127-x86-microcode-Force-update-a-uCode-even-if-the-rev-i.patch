@@ -11,7 +11,7 @@ Signed-off-by: Ashok Raj <ashok.raj@intel.com>
  2 files changed, 55 insertions(+), 3 deletions(-)
 
 diff --git a/arch/x86/kernel/cpu/microcode/core.c b/arch/x86/kernel/cpu/microcode/core.c
-index 4a4198b806b4..78db86c994d0 100644
+index c95a27513a30..529d30626c62 100644
 --- a/arch/x86/kernel/cpu/microcode/core.c
 +++ b/arch/x86/kernel/cpu/microcode/core.c
 @@ -601,6 +601,7 @@ static int microcode_reload_late(void)
