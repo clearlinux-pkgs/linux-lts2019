@@ -18,4 +18,5 @@ results/
 rpms/
 for-review.txt
 
-linux-5.*
+linux-4.*
+/releases.json
