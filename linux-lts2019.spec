@@ -5,13 +5,13 @@
 #
 
 Name:           linux-lts2019
-Version:        5.4.289
-Release:        268
+Version:        5.4.290
+Release:        269
 License:        GPL-2.0
 Summary:        The Linux kernel
 Url:            http://www.kernel.org/
 Group:          kernel
-Source0:        https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.289.tar.xz
+Source0:        https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.290.tar.xz
 Source1:        config
 Source2:        cmdline
 
@@ -122,7 +122,7 @@ Requires:       linux-lts2019-license = %{version}-%{release}
 Linux kernel build files
 
 %prep
-%setup -q -n linux-5.4.289
+%setup -q -n linux-5.4.290
 
 #cve.patch.start cve patches
 #cve.patch.end
